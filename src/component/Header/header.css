@@ -1,0 +1,246 @@
+.header__lastFinsih {
+  display: flex;
+}
+.header__circleNotification {
+  width: 12px;
+  height: 12px;
+  color: #45b26b;
+
+  background-color: #45b26b;
+  border-radius: 100%;
+  margin-left: 15px;
+}
+.header__icon {
+  font-size: 22px;
+  color: #777e91;
+}
+.header__bellrightleft {
+  margin-left: 20px;
+
+  margin-right: 20px;
+}
+.unit__role {
+  display: flex;
+  margin-left: 300px;
+}
+#searchbar {
+  border: none;
+}
+#searchbar:focus {
+  outline: none;
+}
+.searhcbar_con {
+  color: #777e91;
+}
+.header__searchbar {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 3px;
+  color: #e6e8ec;
+  border: 2px solid #e6e8ec;
+  height: 25px;
+  width: 200px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+.Header__textDiscover {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #23262f;
+  margin-right: 20px;
+}
+.Header_colorTex {
+  color: #777e91;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+.header__small {
+  display: block;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+.line {
+  height: 40px;
+  padding: 1px;
+  border-radius: 10px;
+  border: none;
+  left: 130px;
+  background: #e6e8ec;
+  color: #e6e8ec;
+
+  margin: 0px 32px;
+}
+.nav-title {
+  display: flex;
+}
+
+.header__slotxtext {
+  font-style: normal;
+
+  font-size: 24px;
+  line-height: 32px;
+  color: black;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+.image__logoSize {
+  width: 105px;
+  position: relative;
+  bottom: 20px;
+  background-image: url("../../assets/image/logo.png");
+  height: 100px;
+}
+.nav {
+  position: fixed !important;
+  padding: 10px 0 5px;
+  height: 50px;
+  display: flex;
+  opacity: 0.9;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #fcfcfd;
+  box-shadow: 0 2px 15px #e6e8ec;
+  position: relative;
+  transition: all 0.5s;
+  z-index: 997;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+
+  color: rgb(0, 0, 0);
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav > .nav-links > a:hover {
+  background: linear-gradient(111.31deg, #41153f, rgba(31, 7, 82, 0) 94.81%),
+    #090a0b 7.84%;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width: 1350px) {
+  .unit__role {
+    display: flex;
+    margin-left: 250px;
+  }
+}
+@media (max-width: 1250px) {
+  .unit__role {
+    display: flex;
+    margin-left: 100px;
+  }
+}
+@media (max-width: 1100px) {
+  .unit__role {
+    display: flex;
+    margin-left: 0px;
+  }
+  .Header__textDiscover {
+    display: none;
+  }
+  .Header_colorTex {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .unit__role {
+    display: block !important;
+    color: rgb(0, 0, 0);
+    margin: 0px !important;
+  }
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 39px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgb(255, 255, 255);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid rgb(0, 0, 0);
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 65px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+
+  .nav {
+    height: 50px;
+    display: flex;
+
+    justify-content: space-between;
+    width: 100%;
+
+    position: relative;
+    transition: all 0.5s;
+    z-index: 997;
+
+    box-shadow: 0 2px 15px #e6e8ec;
+  }
+}

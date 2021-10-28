@@ -1,0 +1,10 @@
+.Header__BlueBtn {
+  background: #3772ff;
+  border-radius: 90px;
+  border: none;
+  width: 80px;
+  text-align: center;
+  color: white;
+  margin: 3px;
+  height: 40px;
+}
