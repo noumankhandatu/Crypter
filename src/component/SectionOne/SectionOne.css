@@ -1,0 +1,22 @@
+.layout__HeaderMB {
+  height: 450px;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.layout__CenterText {
+  font-weight: bold;
+  font-size: 12px;
+  color: #777e91;
+}
+.layout__centerTexttwo {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #23262f;
+}
+.layout__centerTexttwos {
+  margin-top: 20px;
+}

@@ -1,6 +1,12 @@
 .header__lastFinsih {
   display: flex;
 }
+.Header__textDiscoverIQ {
+  display: none;
+}
+.Header_colorTexIQ {
+  display: none;
+}
 .header__circleNotification {
   width: 12px;
   height: 12px;
@@ -82,12 +88,11 @@
 .nav-title {
   display: flex;
 }
-
 .header__slotxtext {
   font-style: normal;
 
   font-size: 24px;
-  line-height: 32px;
+  line-height: 35px;
   color: black;
   letter-spacing: -0.02em;
   font-weight: 600;
@@ -151,23 +156,52 @@
 .nav > #nav-check {
   display: none;
 }
-
+.header__belandinbox {
+  display: flex;
+}
 @media (max-width: 1350px) {
   .unit__role {
     display: flex;
     margin-left: 250px;
   }
+  .Header__textDiscoverIQ {
+    display: none;
+  }
+  .Header_colorTexIQ {
+    display: none;
+  }
 }
 @media (max-width: 1250px) {
   .unit__role {
     display: flex;
+
     margin-left: 100px;
+  }
+  .Header__textDiscoverIQ {
+    display: none;
+  }
+  .Header_colorTexIQ {
+    display: none;
   }
 }
 @media (max-width: 1100px) {
   .unit__role {
     display: flex;
     margin-left: 0px;
+  }
+  .header__searchbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 3px;
+    color: #e6e8ec;
+    border: 2px solid #e6e8ec;
+    height: 25px;
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
   }
   .Header__textDiscover {
     display: none;
@@ -178,8 +212,55 @@
   .line {
     display: none;
   }
+  .Header__textDiscoverIQ {
+    display: none;
+  }
+  .Header_colorTexIQ {
+    display: none;
+  }
 }
 @media (max-width: 760px) {
+  .unit__role {
+    display: flex;
+    background-color: #e6e8ec;
+    margin-left: 100px;
+  }
+  .header__slotxtext {
+    font-style: normal;
+
+    font-size: 24px;
+    line-height: 35px;
+    color: black;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+  }
+  .image__logoSize {
+    background-image: url("../../assets/image/logo.png");
+  }
+  .header__searchbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 3px;
+    color: #e6e8ec;
+    border: 2px solid #e6e8ec;
+    height: 25px;
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .Header__textDiscoverIQ {
+    display: block;
+  }
+  .Header_colorTexIQ {
+    display: block;
+  }
+  .header__lastFinsih {
+    position: relative;
+    right: 40px;
+  }
   .unit__role {
     display: block !important;
     color: rgb(0, 0, 0);
@@ -194,8 +275,8 @@
   .nav > .nav-btn > label {
     display: inline-block;
     width: 50px;
-    height: 39px;
-    padding: 13px;
+    height: 30px;
+    padding: 17px;
   }
   .nav > .nav-btn > label:hover,
   .nav #nav-check:checked ~ .nav-btn > label {

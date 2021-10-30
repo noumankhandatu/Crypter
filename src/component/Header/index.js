@@ -1,7 +1,6 @@
 import React from "react";
 import HeaderBlueBtn from "../HeaderBlueButton/HeaderBlueBtn";
 import HeaderBtn from "../HeaderButton/headerbtn";
-
 import "./header.css";
 const Header = () => {
   return (
@@ -30,16 +29,20 @@ const Header = () => {
           </div>
           <div class="nav-links ">
             <div className="unit__role">
-              <div className="header__searchbar">
-                <input type="" name="" placeholder="Search" id="searchbar" />
-                <i class="fas fa-search searhcbar_con"></i>
+              <div className="header__belandinbox">
+                <div className="header__searchbar">
+                  <input type="" name="" placeholder="Search" id="searchbar" />
+                  <i class="fas fa-search searhcbar_con"></i>
+                </div>
+                <div className="header__bellrightleft">
+                  <div className="header__circleNotification"></div>
+                  <i class="far fa-bell header__icon"></i>
+                </div>
               </div>
-              <div className="header__bellrightleft">
-                <div className="header__circleNotification"></div>
-                <i class="far fa-bell header__icon"></i>
-              </div>
+              <p className="Header__textDiscoverIQ">Discover</p>
+              <p className="Header_colorTexIQ">How it work</p>
               <HeaderBlueBtn />
-              <HeaderBtn />
+              <HeaderBtn text="Connect Wallet" />
             </div>
           </div>
         </div>

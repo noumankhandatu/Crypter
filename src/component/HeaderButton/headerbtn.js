@@ -1,9 +1,9 @@
 import React from "react";
 import "./headerbtn.css";
-const HeaderBtn = () => {
+const HeaderBtn = (props) => {
   return (
     <div className="headerbtn__fitting">
-      <button className="header__buttonStyling">Connect Wallet</button>
+      <button className="header__buttonStyling">{props.text}</button>
     </div>
   );
 };
