@@ -1,0 +1,72 @@
+.GST__liloneAvatarimg {
+  width: 24px;
+  border-radius: 100%;
+  background-color: #9757d7;
+}
+.Gst__ImageStylin {
+  border-radius: 15px;
+}
+.Gst__unitmidLayout {
+  display: flex;
+  margin-bottom: 15px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.GST__ethText {
+  font-size: 16px;
+  font-weight: 500;
+}
+.GST__HandleMidAvaDetails {
+  display: grid;
+  margin: 0px;
+  padding: 0px;
+  grid-gap: 5px;
+  grid-template-columns: 30px 90px 70px;
+}
+.GST__EthTextBorders {
+  border-radius: 6px;
+  width: 80px;
+  margin-top: 5px;
+  display: flex;
+  margin: 0px !important;
+  padding: 0px !important;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #45b26b;
+}
+.GST__EthTexts {
+  color: #45b26b;
+  font-size: 12px;
+  margin: 0px !important;
+  padding: 0px !important;
+  font-weight: 800;
+}
+.GST__averageText {
+  font-size: 14px;
+  margin: 0px;
+  font-weight: 400;
+  margin-top: 5px;
+  color: #777e90;
+}
+.GST__btntextts {
+  color: #23262f;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+}
+.GST__btnoutcome {
+  border: 2px solid #e6e8ec;
+  background-color: white;
+  width: 98px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  border-radius: 90px;
+}
+.GST_LearLeft {
+  margin-left: 20px;
+}

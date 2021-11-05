@@ -174,9 +174,18 @@
     grid-template-rows: 1fr;
     margin-left: 5%;
     text-align: center;
+
     margin-right: 5%;
     text-align: center;
     grid-template-columns: 1fr;
+  }
+  .GSO__headertext {
+    margin: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+    color: #23262f;
   }
   .GSO__VedioImage {
     width: 500px;
@@ -195,15 +204,26 @@
     margin-left: 100px;
     margin-right: 100px;
   }
+  .GSO__IconsFlexing {
+    display: flex;
+    justify-content: center;
+  }
 }
 @media (max-width: 760px) {
   .GSOforMobile {
-    display: block;
-    text-align: left;
+    display: flex;
+  }
+  .GSO__headertext {
+    margin: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+    color: #23262f;
   }
   .GSO__AvatarTextFlexed {
     display: block;
-    margin-left: 0px;
+    margin-left: 50px;
     margin-right: 0px;
   }
   .GridSectionOne__Layout {
@@ -222,14 +242,6 @@
     border-radius: 10px;
     height: 400px;
   }
-  .GSO__headertext {
-    margin: 0px;
-    margin-bottom: 20px;
-    text-align: left;
-    font-size: 44px;
-    font-weight: bold;
-    color: #23262f;
-  }
 }
 @media (max-width: 350px) {
   .GSOforMobile {
@@ -238,8 +250,16 @@
   }
   .GSO__AvatarTextFlexed {
     display: block;
-    margin-left: 0px;
+    margin-left: 50px;
     margin-right: 0px;
+  }
+  .GSO__headertext {
+    margin: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #23262f;
   }
   .GridSectionOne__Layout {
     display: grid;
@@ -256,13 +276,5 @@
     width: 270px;
     border-radius: 10px;
     height: 400px;
-  }
-  .GSO__headertext {
-    margin: 0px;
-    margin-bottom: 20px;
-    text-align: left;
-    font-size: 34px;
-    font-weight: bold;
-    color: #23262f;
   }
 }

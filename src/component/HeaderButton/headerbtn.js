@@ -3,7 +3,9 @@ import "./headerbtn.css";
 const HeaderBtn = (props) => {
   return (
     <div className="headerbtn__fitting">
-      <button className="header__buttonStyling">{props.text}</button>
+      <button className="header__buttonStyling">
+        {props.text} <i class={props.Icon}></i>
+      </button>
     </div>
   );
 };

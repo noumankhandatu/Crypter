@@ -3,10 +3,10 @@ import "./GridSectionOne.css";
 import vedioimage from "../../assets/image/vedioimage.png";
 import avatarone from "../../assets/image/avatarone.png";
 import user from "../../assets/image/user.png";
-import HeaderBtn from "../HeaderButton/headerbtn";
+
 const GridSectionOne = () => {
   return (
-    <div className="GridSectionOne__Layout">
+    <div className="GridSectionOne__Layout animate__animated animate__fadeInDownBig">
       <div>
         <img src={vedioimage} className="GSO__VedioImage" alt="" />
       </div>
@@ -17,14 +17,18 @@ const GridSectionOne = () => {
             <img className="GSO__avatorImageCss" src={avatarone} alt="" />
             <div>
               <p className="GSO__creatorTex">Creator</p>
-              <p className="GSO__creatorTextwo">Enrico Cole</p>
+              <p className="GSO__creatorTextwo">
+                <b>Enrico Cole</b>
+              </p>
             </div>
           </div>
           <div className="GSO__AvatarTextFlexed">
             <img className="GSO__avatorImageCss" src={user} alt="" />
             <div>
               <p className="GSO__creatorTex">Instant price</p>
-              <p className="GSO__creatorTextwo">3.5 ETH</p>
+              <p className="GSO__creatorTextwo">
+                <b>3.5 ETH</b>
+              </p>
             </div>
           </div>
         </div>

@@ -1,0 +1,30 @@
+.GSTRight__Layout {
+  margin-left: 40px;
+}
+.GSTRight__textLatest {
+  font-weight: 600;
+  padding: 0px;
+  margin-bottom: 30px !important;
+  margin: 0px;
+  color: #777e90 /* Latest upload from creators  */;
+  font-size: 12px;
+}
+.GSTRight__buttonLeft {
+  display: flex;
+
+  margin-top: 40px;
+}
+@media (max-width: 1024px) {
+  .GSTRight__buttonLeft {
+    display: none;
+  }
+  .GSTRight__Layout {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 80px;
+  }
+}

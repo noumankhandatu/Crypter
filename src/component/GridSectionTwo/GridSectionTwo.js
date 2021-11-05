@@ -1,12 +1,18 @@
 import React from "react";
 import "./GridSectionTwo.css";
+import GstUnitRight from "../GST-unitRight/GstUnitRight";
+import GstUnitMid from "../GST-UnitMid/GstUnitMid";
 import sectionTwobgavatar from "../../assets/image/austin-wade-X6Uj51n5CE8-unsplash 1.png";
 import bgSectionTwo from "../../assets/image/jakob-owens-BqSACXqDbBU-unsplash 1.png";
+import GSTliloneAvatar from "../../assets/image/austin-wade-X6Uj51n5CE8-unsplash 1.png";
+import unimidImage from "../../assets/image/michael-dziedzic-bOZRVWwbW9Y-unsplash.png";
+import blackImgb from "../../assets/image/imgb.png";
+import twinimggg from "../../assets/image/fly-d-FyN1SrqrTzQ-unsplash 1.png";
 const GridSectionTwo = () => {
   return (
     <div className="GridSectionTwo__GridLayout">
-      <div>
-        <div className="GST__ImageCentering">
+      <div className="GST__TabCheker">
+        <div className="GST__ImageCentering animate__animated animate__bounce">
           <img className="bgSectionTwo__ImageSize" src={bgSectionTwo} alt="" />
         </div>
         <div className="GridSection__avatarsOne">
@@ -31,8 +37,34 @@ const GridSectionTwo = () => {
           </div>
         </div>
       </div>
-      <h1>Nouman</h1>
-      <h1>Nouman</h1>
+      <div className="GST__rightBorder">
+        <GstUnitMid
+          text="Eth never die"
+          boxImg={unimidImage}
+          img={GSTliloneAvatar}
+          rate="1 of 12"
+          bgColor="#9757D7"
+        />
+        <GstUnitMid
+          bgColorBtn="#3772FF"
+          colozz="white"
+          text="Aka Datusing"
+          boxImg={blackImgb}
+          bgColor="yellow"
+          img={GSTliloneAvatar}
+          rate="1 of 3"
+        />
+        <GstUnitMid
+          text="Future Coming Soon"
+          boxImg={twinimggg}
+          bgColor="tomato"
+          img={GSTliloneAvatar}
+          rate="1 of 12"
+        />
+      </div>
+      <div className="GST__TabCheck">
+        <GstUnitRight />
+      </div>
     </div>
   );
 };
