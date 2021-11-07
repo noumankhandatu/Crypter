@@ -1,0 +1,69 @@
+.SlickReact__Card {
+  width: 198.4px;
+  height: 247px;
+  background: #fcfcfd;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+.polygon__style {
+  border-radius: 100%;
+  position: relative;
+  left: 28px;
+  bottom: 30px;
+}
+.SlickReact__WadeImage {
+  border-radius: 100%;
+}
+.SlickCard__IconsFlexing {
+  display: flex;
+  border-bottom: 1px solid #e6e8ec;
+  width: 150.4px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.SlickReact__BlueBtn {
+  padding: 3px;
+  background-color: #3772ff;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  width: 70px;
+  color: white;
+  height: 24px;
+  padding: 2px, 8px, 2px, 8px;
+}
+.SlickBlueBtn__num {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fcfcfd;
+  line-height: 27px;
+}
+.SlickReact__ArrowImg {
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+}
+.SlickCardIconsx {
+  font-size: 20px;
+  color: #b1b5c3;
+  margin: 5px;
+  margin-right: 5px;
+}
+.SlickReact_TextOneHere {
+  font-size: 14px;
+  font-weight: 500;
+  color: #23262f;
+}
+.SlickReact_TextTwoHere {
+  color: #777e91;
+  font-size: 12px;
+}
+.SlickReact__Flex {
+  display: flex;
+  grid-gap: 10px;
+}

@@ -1,0 +1,82 @@
+.SlickReact__backGLayout {
+  background: #f4f5f6;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.SlickReact__Popular {
+  color: #777e91;
+  font-weight: 600;
+  margin: 0px;
+  font-size: 24px;
+}
+.SlickReact__Seller {
+  font-weight: bold;
+  font-size: 40px;
+  color: #23262f;
+  margin: 0px;
+}
+.SlickReact__textSpaceEvenely {
+  display: flex;
+  margin-left: 10%;
+  margin-bottom: 100px;
+  align-items: center;
+  margin-right: 10%;
+  justify-content: space-between;
+}
+.SlickReact__Today {
+  border: 2px solid #e6e8ec;
+  box-sizing: border-box;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 8px 8px 16px;
+  background: #fcfcfd;
+  width: 256px;
+  height: 48px;
+  left: 864px;
+  top: 16px;
+}
+.SlickReact__TodayText {
+  color: #23262f;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+.SlicReact__lilopacity {
+  opacity: 0.3;
+  color: #969ba7;
+}
+@media (max-width: 760px) {
+  .SlickReact__Popular {
+    color: #777e91;
+    font-weight: 600;
+    margin: 0px;
+    font-size: 18px;
+  }
+  .SlickReact__Seller {
+    font-weight: bold;
+    font-size: 24px;
+    color: #23262f;
+    margin: 0px;
+  }
+  .SlickReact__Today {
+    border: 2px solid #e6e8ec;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 8px 8px 16px;
+    background: #fcfcfd;
+    width: 146px;
+    height: 48px;
+    left: 864px;
+    top: 16px;
+  }
+}
+@media (max-width: 350px) {
+}
