@@ -1,0 +1,193 @@
+.Footer__Layout {
+  display: grid;
+  background: #fcfcfd;
+  grid-gap: 100px;
+  padding: 80px 160px 0px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.Footer__LogoText {
+  display: flex;
+}
+.Footer__LogoStyle {
+  width: 40px;
+  height: 40px;
+  margin-top: 18px;
+}
+.Footer__textCrypter {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #23262f;
+}
+.Footer__textTheNew {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262f;
+}
+.Footer__textStack {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262f;
+}
+.Footer__discover {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #777e91;
+}
+.Footer__Join {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262f;
+}
+.Footer__SubScribe {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #23262f;
+}
+.Footer__input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 8px 8px 16px;
+  position: static;
+  width: 256px;
+  height: 48px;
+  left: calc(50% - 256px / 2);
+  top: 24px;
+  background: #fcfcfd;
+  border: 2px solid #e6e8ec;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+.Footer__inputinside {
+  border: none;
+  background-color: #fcfcfd;
+  outline: none;
+}
+.footer__InputIcon {
+  background: #3772ff;
+  border-radius: 100px;
+  padding: 2px;
+  color: white;
+}
+
+.newHr {
+  color: #e6e8ec;
+  background-color: #e6e8ec;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 2px;
+  border: none;
+}
+.Footer__EndsHere {
+  display: flex;
+  justify-content: space-around;
+}
+.Footer__textCopy {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #777e91;
+}
+.Footer__we {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: right;
+  color: #23262f;
+}
+.Footer__Accpet {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: right;
+  color: #3772ff;
+}
+.Footer__EndingFlex {
+  display: flex;
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+@media (max-width: 1024px) {
+  .Footer__Layout {
+    display: grid;
+    background: #fcfcfd;
+    grid-gap: 40px;
+    padding: 80px 160px 0px;
+
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .Footer__textCrypter {
+    font-style: normal;
+    font-weight: 900;
+
+    font-size: 15px;
+    letter-spacing: -0.02em;
+    color: #23262f;
+  }
+  .Footer__textTheNew {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+
+    color: #23262f;
+  }
+  .Footer__textStack {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+
+    color: #23262f;
+  }
+  .Footer__discover {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #777e91;
+  }
+  .Footer__LogoStyle {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 760px) {
+  .Footer__Layout {
+    display: grid;
+    background: #fcfcfd;
+    grid-gap: 0px;
+    padding: 30px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .Footer__EndsHere {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .Footer__EndingFlex {
+    display: flex;
+    grid-gap: 10px;
+    margin-bottom: 0px;
+  }
+}

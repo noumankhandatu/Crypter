@@ -13,12 +13,12 @@ const SectionSeven = () => {
           A creative agency that lead and inspire
         </p>
         <div className="SectionSeven__buttons">
-          <HeaderBlueBtn />
+          <HeaderBlueBtn text="Earn Now" />
           <HeaderBtn text="Discover More" />
         </div>
       </div>
       <div>
-        <img src={FooterImage} alt="" />
+        <img className="SectionSeven__image" src={FooterImage} alt="" />
       </div>
     </div>
   );

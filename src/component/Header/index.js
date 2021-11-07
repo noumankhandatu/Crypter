@@ -41,7 +41,7 @@ const Header = () => {
               </div>
               <p className="Header__textDiscoverIQ">Discover</p>
               <p className="Header_colorTexIQ">How it work</p>
-              <HeaderBlueBtn />
+              <HeaderBlueBtn text="Upload" />
               <HeaderBtn text="Connect Wallet" />
             </div>
           </div>

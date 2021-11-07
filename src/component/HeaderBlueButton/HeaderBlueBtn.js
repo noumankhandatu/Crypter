@@ -1,9 +1,9 @@
 import React from "react";
 import "./HeaderBlueButton.css";
-const HeaderBlueBtn = () => {
+const HeaderBlueBtn = (props) => {
   return (
     <div>
-      <button className="Header__BlueBtn">Upload</button>
+      <button className="Header__BlueBtn">{props.text}</button>
     </div>
   );
 };
