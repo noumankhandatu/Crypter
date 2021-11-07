@@ -4,6 +4,7 @@ import SectionOne from "./component/SectionOne/SectionOne";
 import GridSectionOne from "./component/GirdSectionOne/GridSectionOne";
 import GridSectionTwo from "./component/GridSectionTwo/GridSectionTwo";
 import SlickReact from "./component/SectionThree/Slick-React/SlickReact";
+import SectionSeven from "./component/SectionSeven/SectionSeven";
 function App() {
   return (
     <>
@@ -26,6 +27,7 @@ function App() {
         </div>
         <SlickReact />
       </div>
+      <SectionSeven />
     </>
   );
 }
