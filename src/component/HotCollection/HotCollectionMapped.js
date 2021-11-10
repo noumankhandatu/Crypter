@@ -5,6 +5,7 @@ import one from "../../assets/HotCollectionImages/jakob-owens-BqSACXqDbBU-unspla
 import oneone from "../../assets/HotCollectionImages/pexels-melvin-buezo-2733938 1.png";
 import onetwo from "../../assets/HotCollectionImages/clark-van-der-beken-1KBCgRD8BDc-unsplash 1.png";
 import onethree from "../../assets/HotCollectionImages/gustavo-centurion-O6fs4ablxw8-unsplash 1.png";
+
 import two from "../../assets/HotCollectionImages/fly-d-FyN1SrqrTzQ-unsplash 1.png";
 import twoone from "../../assets/HotCollectionImages/efe-kurnaz-RnCPiXixooY-unsplash 1.png";
 import twotwo from "../../assets/HotCollectionImages/pexels-anni-roenkae-2832382 1.png";
