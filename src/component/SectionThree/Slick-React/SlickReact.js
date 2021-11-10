@@ -2,30 +2,24 @@ import React from "react";
 import "./SlickReact.css";
 import SlickCardMapped from "../SlickCard/SlickCardMapped";
 import Carousel from "react-elastic-carousel";
-
+import SlickData from "../SlickCard/SlickCardData";
 const SlickReact = () => {
-  const items = [
-    { id: 1, title: "item #1" },
-    { id: 2, title: "item #2" },
-    { id: 3, title: "item #3" },
-    { id: 4, title: "item #4" },
-    { id: 5, title: "item #5" },
+  const breakPoints = [
+    { width: 1, itemsToShow: 1 },
+    { width: 550, itemsToShow: 2, itemsToScroll: 2 },
+    { width: 768, itemsToShow: 3 },
+    { width: 1200, itemsToShow: 4 },
   ];
   return (
     <div>
-      <Carousel>
-        {items.map((item) => (
+      <Carousel breakPoints={breakPoints}>
+        {SlickData.map((item) => (
           <div>
-            <SlickCardMapped />
+            <SlickCardMapped item={item} />
           </div>
         ))}
       </Carousel>
     </div>
   );
 };
-
 export default SlickReact;
-
-// <div key={item.id}>{item.title}</div>
-
-// <img src="https://picsum.photos/200" />

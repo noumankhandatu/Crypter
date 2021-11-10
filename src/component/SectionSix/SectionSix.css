@@ -1,0 +1,144 @@
+.SectionSix__Layout {
+  padding: 128px 160px;
+  background: #fcfcfd;
+}
+.SectionSix__TextDiscover {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 100px;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  color: #23262f;
+}
+.SectionSix__HeadTexts {
+  display: flex;
+  justify-content: space-between;
+}
+.SectionSix__HeadItemsFlexin {
+  display: flex;
+  grid-gap: 20px;
+}
+.SectionSix__HeadItems {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0px !important;
+  line-height: 16px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  color: #777e91;
+}
+.SectionSix__textRecently {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #23262f;
+}
+.SectionSix__HeadItems:hover {
+  background: #353945;
+  border-radius: 100px;
+}
+.SectionSix__OuterDivRecent {
+  border: 2px solid #e6e8ec;
+  box-sizing: border-box;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 8px 8px 16px;
+  background: #fcfcfd;
+  width: 256px;
+  height: 48px;
+  left: 864px;
+  top: 16px;
+}
+.recentIcon {
+  font-size: 24px;
+  color: #777e90;
+}
+.newtwoHr {
+  background-color: #e6e8ec;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 2px;
+  border: none;
+}
+.SectionSix__MidLayout {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.SectionSix__textPrize {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #b1b5c4;
+}
+.SectionSix__Range {
+  height: 16px;
+  left: 0px;
+  right: 0px;
+  top: calc(50% - 16px / 2 + 18px);
+
+  /* Neutrals/6 */
+
+  background: #e6e8ec;
+  border-radius: 4px;
+}
+.SectionSix__rangeText {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  color: #23262f;
+}
+.RangeTexssss {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1251px) {
+  .SectionSix__MidLayout {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 760px) {
+  .SectionSix__MidLayout {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+  }
+  .SectionSix__Layout {
+    padding: 30px;
+    background: #fcfcfd;
+  }
+  .SectionSix__HeadTexts {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .SectionSix__HeadItemsFlexin {
+    display: flex;
+    grid-gap: 10px;
+    padding: 20px;
+    margin: 10px;
+  }
+}

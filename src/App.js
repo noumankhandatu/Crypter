@@ -5,6 +5,8 @@ import GridSectionOne from "./component/GirdSectionOne/GridSectionOne";
 import GridSectionTwo from "./component/GridSectionTwo/GridSectionTwo";
 import SlickReact from "./component/SectionThree/Slick-React/SlickReact";
 import SectionSeven from "./component/SectionSeven/SectionSeven";
+import SectionSix from "./component/SectionSix/SectionSix";
+import Slider from "./component/MultiItemCarousel/MultiItemSlider/Slider";
 import Footer from "./component/Footer/Footer";
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
         </div>
         <SlickReact />
       </div>
+      <Slider />
+      <SectionSix />
       <SectionSeven />
       <Footer />
     </>

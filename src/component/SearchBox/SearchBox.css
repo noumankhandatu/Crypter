@@ -1,0 +1,28 @@
+.SearchBox__OuterDivRecent {
+  border: 2px solid #e6e8ec;
+  box-sizing: border-box;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 8px 8px 16px;
+  background: #fcfcfd;
+  width: 256px;
+  height: 48px;
+  left: 864px;
+  top: 16px;
+}
+.SearchBox__textRecently {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #23262f;
+}
+.SearchBoxrecentIcon {
+  font-size: 20px;
+  opacity: 0.4;
+  color: #777e90;
+}
