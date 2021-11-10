@@ -1,0 +1,67 @@
+.HotCollectionOutterMost {
+  background: #f4f5f6;
+  margin-top: 12rem;
+  padding: 128px 100px;
+}
+.HotCollection__GridSystem {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.HotCollection__textHot {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 100px;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  color: #23262f;
+}
+
+.HotCollection__MiniGridSystem {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+}
+.HotCollection__textAwesome {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #23262f;
+}
+.HotCollection__textBtnDisplace {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.HotCollection__WadeKendrckFlex {
+  display: flex;
+  align-items: center;
+}
+.HotCollection__LilWade {
+  border-radius: 100%;
+}
+.HotCollection__LilKendrick {
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 10px;
+  line-height: 24px;
+  color: #353945;
+}
+.HotCollection__Btn {
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #23262f;
+  border: 1px solid #bcbcbd;
+}
+.HotSection__ImageRadious {
+  border-radius: 10px;
+}

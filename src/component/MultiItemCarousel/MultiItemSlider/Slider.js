@@ -13,6 +13,15 @@ const breakPoints = [
 function Slider() {
   return (
     <div className="AppMIC">
+      <div className="Slider__LeftIconFlexin">
+        <div>
+          <p className="Slider__TextHotBid">Hot Bid</p>
+        </div>
+        <div>
+          <i class="fas fa-long-arrow-alt-left GSO__iconRight"></i>
+          <i class="fas fa-long-arrow-alt-right GSO__iconRight"></i>
+        </div>
+      </div>
       <div className="carousel-wrapperMIN">
         <Carousel breakPoints={breakPoints}>
           {SectionSixData.map((item) => (

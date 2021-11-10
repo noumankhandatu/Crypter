@@ -3,6 +3,7 @@ import Header from "./component/Header";
 import SectionOne from "./component/SectionOne/SectionOne";
 import GridSectionOne from "./component/GirdSectionOne/GridSectionOne";
 import GridSectionTwo from "./component/GridSectionTwo/GridSectionTwo";
+import HotCollectionMapped from "./component/HotCollection/HotCollectionMapped";
 import SlickReact from "./component/SectionThree/Slick-React/SlickReact";
 import SectionSeven from "./component/SectionSeven/SectionSeven";
 import SectionSix from "./component/SectionSix/SectionSix";
@@ -31,6 +32,7 @@ function App() {
         <SlickReact />
       </div>
       <Slider />
+      <HotCollectionMapped />
       <SectionSix />
       <SectionSeven />
       <Footer />
