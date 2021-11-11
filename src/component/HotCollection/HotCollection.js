@@ -1,7 +1,6 @@
 import React, { useState, useRef } from "react";
 import "./HotCollection.css";
 import kingWade from "../../assets/HotCollectionImages/austin-wade-X6Uj51n5CE8-unsplash 1.png";
-
 const HotCollection = (props) => {
   const { one, oneone, onetwo, onethree } = props;
   // const [state, setstate] = useState("https://picsum.photos/200/300");
@@ -27,7 +26,6 @@ const HotCollection = (props) => {
               currentActive={currentActive}
               setCurrentActive={setCurrentActive}
             />
-
             <SubCard
               imgSrc={onethree}
               currentActive={currentActive}
