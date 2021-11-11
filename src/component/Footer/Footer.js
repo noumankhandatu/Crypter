@@ -8,7 +8,7 @@ const Footer = () => {
         <div>
           <div className="Footer__LogoText">
             <img className="Footer__LogoStyle" src={logo} alt="" />
-            <p className="Footer__textCrypter">Crypter</p>
+            <p className="Footer__textCrypter">NFT SITE</p>
           </div>
           <p className="Footer__textTheNew">The New Creative Economy.</p>
         </div>
