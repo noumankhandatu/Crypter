@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import HeaderBlueBtn from "../HeaderBlueButton/HeaderBlueBtn";
 import HeaderBtn from "../HeaderButton/headerbtn";
+import Dropdown from "../DropdownNotification/Dropdown";
 import "./header.css";
 const Header = () => {
+  const [dropDown, setDropDown] = useState(false);
+  const handleDropDown = () => {
+    setDropDown(!dropDown);
+  };
   return (
     <div id="top">
       <div class="nav ">
@@ -35,7 +40,11 @@ const Header = () => {
               </div>
               <div className="header__bellrightleft">
                 <div className="header__circleNotification"></div>
-                <i class="far fa-bell header__icon"></i>
+                <i
+                  onClick={handleDropDown}
+                  class="far fa-bell header__icon"
+                ></i>
+                {dropDown ? <Dropdown /> : null}
               </div>
             </div>
             <p className="Header__textDiscoverIQ">Discover</p>

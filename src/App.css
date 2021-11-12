@@ -6,16 +6,7 @@
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.rocket {
-  position: fixed;
-  right: 4rem;
-  animation-name: change-color;
-  animation-duration: 2s;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  font-size: 35px;
-  bottom: 3rem;
-}
+
 .SlickReact__Popular {
   color: #777e91;
   font-weight: 600;
@@ -62,45 +53,7 @@
   opacity: 0.3;
   color: #969ba7;
 }
-@keyframes change-color {
-  from {
-    color: #ed3a3a;
-  }
-  to {
-    color: rgb(243, 238, 78);
-  }
-}
 
-@keyframes change-color1 {
-  0% {
-    color: red;
-  }
-  15% {
-    color: orange;
-    top: 10px;
-    left: 10px;
-  }
-  30% {
-    color: yellow;
-    top: 20px;
-    left: 20px;
-  }
-  45% {
-    color: green;
-    top: 30px;
-    left: 30px;
-  }
-  70% {
-    color: blue;
-    top: 40px;
-    left: 40px;
-  }
-  100% {
-    color: purple;
-    top: 50px;
-    left: 50;
-  }
-}
 
 @media (max-width: 760px) {
   .SlickReact__Popular {

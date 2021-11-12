@@ -1,0 +1,20 @@
+.rocket {
+  position: fixed;
+  right: 2rem;
+  transform: rotate(-45deg);
+  animation-name: change-color;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  font-size: 35px;
+  bottom: 2rem;
+}
+
+@keyframes change-color {
+  from {
+    color: #ff0000;
+  }
+  to {
+    color: #4961e9;
+  }
+}

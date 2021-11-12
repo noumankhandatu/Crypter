@@ -118,14 +118,28 @@
   width: 300px;
   height: 48px;
   margin-top: 5px;
+  transition: all 0.5s ease-in-out;
   background: #3772ff;
   border-radius: 90px;
   color: white;
   border: none;
 }
+.GSO__blueButton:hover {
+  box-shadow: 20px 20px 20px 5px rgb(0 0 0 / 2%);
+  -webkit-transform: translateY(-1px);
+  transform: translateY(-1px);
+  transition: 1s;
+  background: #ffffff;
+  border-radius: 90px;
+  border: 2px solid #3772ff;
+  transition: all 0.35s ease-in-out;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #3772ff;
+}
 .GSO__ButtonTexts {
   height: 16px;
-  color: #fcfcfd;
   text-align: center;
   margin: 0px 12px;
   font-weight: bold;
@@ -133,18 +147,31 @@
 .GSO__WhiteButton {
   width: 300px;
   height: 48px;
+  color: rgb(0, 0, 0);
   border: 2px solid #e6e8ec;
   margin-top: 10px;
+  transition: all 0.5s ease-in-out;
   background: #ffffff;
+  border-radius: 90px;
+}
+.GSO__WhiteButton:hover {
+  width: 300px;
+  letter-spacing: 1px;
+  height: 48px;
+  border: 2px solid #ffffff;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  background-color: #272727;
   border-radius: 90px;
 }
 .GSO__WhiteButtonTexts {
   height: 16px;
-  color: rgb(0, 0, 0);
+
   text-align: center;
   margin: 0px 12px;
   font-weight: bold;
 }
+
 .GSO__IconsFlexing {
   display: flex;
 }

@@ -1,0 +1,35 @@
+.dropDown__textEth {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0px;
+  line-height: 24px;
+  color: #141416;
+}
+.dropdown__textTwo {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0px;
+  line-height: 24px;
+  color: #353945;
+}
+.dropDown__textDays {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  margin: 0px;
+  line-height: 20px;
+  color: #777e91;
+}
+.DropDownImg {
+  margin: 0px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.dropdownlilCirclepush {
+  margin-left: 70px;
+}
+.DropDownLilMargin {
+  margin-bottom: 20px;
+}

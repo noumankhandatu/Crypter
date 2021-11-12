@@ -3,7 +3,12 @@ import "./HeaderBlueButton.css";
 const HeaderBlueBtn = (props) => {
   return (
     <div>
-      <button className="Header__BlueBtn">{props.text}</button>
+      <button
+        style={{ width: `${props.width}`, height: `${props.height}` }}
+        className="Header__BlueBtn"
+      >
+        {props.text}
+      </button>
     </div>
   );
 };

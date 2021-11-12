@@ -3,18 +3,12 @@ import "./HotCollection.css";
 import kingWade from "../../assets/HotCollectionImages/austin-wade-X6Uj51n5CE8-unsplash 1.png";
 const HotCollection = (props) => {
   const { one, oneone, onetwo, onethree } = props;
-  // const [state, setstate] = useState("https://picsum.photos/200/300");
-
   const [currentActive, setCurrentActive] = useState(one);
   return (
     <div className="HotCollection__Layout">
       <div className="HotCollection__GridSystem">
         <div>
-          <img
-            className="HotSection__ImageRadious"
-            src={currentActive}
-            alt=""
-          />
+          <img className=" hot__collectionMainImg" src={currentActive} alt="" />
           <div className="HotCollection__MiniGridSystem">
             <SubCard
               imgSrc={oneone}
@@ -57,8 +51,8 @@ const SubCard = ({ imgSrc, currentActive, setCurrentActive }) => {
 
   const handleClick = () => {
     const temp = imgRef.current.src;
-    imgRef.current.src = currentActive;
     setCurrentActive(temp);
+    imgRef.current.src = currentActive;
   };
   return (
     <img

@@ -3,9 +3,27 @@
   border-radius: 90px;
   border: none;
   width: 100px;
+  cursor: pointer;
   letter-spacing: 1px;
   text-align: center;
   color: white;
+  margin: 3px;
+  height: 40px;
+}
+.Header__BlueBtn:hover {
+  box-shadow: 20px 20px 20px 5px rgb(0 0 0 / 2%);
+  -webkit-transform: translateY(-1px);
+  transform: translateY(-1px);
+  transition: 1s;
+  background: #ffffff;
+  border-radius: 90px;
+  border: 2px solid #3772ff;
+  transition: all 0.35s ease-in-out;
+  width: 100px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #3772ff;
   margin: 3px;
   height: 40px;
 }

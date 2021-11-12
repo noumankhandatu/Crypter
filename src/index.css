@@ -4,6 +4,18 @@ body {
   box-sizing: border-box;
   font-family: "DM Sans", sans-serif;
 }
+.DFSA {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.DFSAC {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

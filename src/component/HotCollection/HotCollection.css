@@ -62,10 +62,16 @@
   color: #23262f;
   border: 1px solid #bcbcbd;
 }
-.HotSection__ImageRadious {
+.hot__collectionMainImg {
   border-radius: 10px;
+  width: 352px;
+  height: 240px;
 }
-
+.HotSection__ImageRadious {
+  width: 112px;
+  border-radius: 5px;
+  height: 75px;
+}
 @media (max-width: 1150px) {
   .HotCollection__GridSystem {
     display: grid;

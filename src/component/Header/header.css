@@ -3,6 +3,7 @@
 }
 .Header__textDiscoverIQ {
   display: none;
+  cursor: pointer;
 }
 .Header_colorTexIQ {
   display: none;
@@ -20,9 +21,9 @@
   font-size: 22px;
   color: #777e91;
 }
+
 .header__bellrightleft {
   margin-left: 20px;
-
   margin-right: 20px;
 }
 .unit__role {
@@ -55,13 +56,14 @@
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
+  cursor: pointer;
   line-height: 16px;
   color: #23262f;
   margin-right: 20px;
 }
 .Header_colorTex {
   color: #777e91;
-
+  cursor: pointer;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;

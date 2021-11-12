@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React from "react";
 import Header from "./component/Header";
 import SectionOne from "./component/SectionOne/SectionOne";
 import GridSectionOne from "./component/GirdSectionOne/GridSectionOne";
@@ -8,35 +8,16 @@ import SlickReact from "./component/SectionThree/Slick-React/SlickReact";
 import SectionSeven from "./component/SectionSeven/SectionSeven";
 import SectionSix from "./component/SectionSix/SectionSix";
 import Slider from "./component/MultiItemCarousel/MultiItemSlider/Slider";
+import RocketFired from "./component/RocketFired/RocketFired";
 import Footer from "./component/Footer/Footer";
 import "./App.css";
 
 function App() {
-  const [offset, setOffset] = useState(0);
-  useEffect(() => {
-    window.onscroll = () => {
-      setOffset(window.pageYOffset);
-    };
-  }, []);
-
-  const iconRef = useRef(null);
-  useEffect(() => {
-    if (iconRef.current)
-      if (offset >= 1000) iconRef.current.style.display = "block";
-      else if (offset <= 1000) iconRef.current.style.display = "none";
-  }, [offset]);
-
+ 
   return (
     <>
       <Header />
-
-      <SectionOne />
-      <a href="#top">
-        <i ref={iconRef} className="material-icons rocket">
-          rocket
-        </i>
-      </a>
-
+      <SectionOne /> <RocketFired />
       <GridSectionOne />
       <GridSectionTwo />
       <div className="SlickReact__backGLayout">

@@ -99,6 +99,17 @@
 }
 .SectionSixMappedLAyout {
   margin-bottom: 50px;
+  cursor: pointer;
+  transition: transform 550ms;
+}
+.SectionSixMappedLAyout:hover {
+  margin-bottom: 50px;
+  transition: transform 550ms;
+
+  box-shadow: 20px 20px 20px 1px rgb(0 0 0 / 3%);
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  transition: 1s;
 }
 @media (max-width: 1024px) {
   .SectionSix__CardImg {
@@ -110,8 +121,24 @@
   }
 }
 @media (max-width: 760px) {
+  .Slider__LeftIconFlexin {
+    display: flex;
+    padding: 136px 90px 128px;
+    align-items: center;
+    justify-content: center;
+  }
+
   .SectionSix__CardImg {
-    width: 200px;
+    width: 315px;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+    border-radius: 16px;
+  }
+}
+@media (max-width: 350px) {
+  .SectionSix__CardImg {
+    width: 270px;
     border-radius: 10px;
     height: 250px;
     box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
