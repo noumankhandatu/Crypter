@@ -1,8 +1,6 @@
 import imgNO from "../../../assets/DropdownNotificationImg/fly-d-FyN1SrqrTzQ-unsplash 1.png";
 import imgNT from "../../../assets/DropdownNotificationImg/fly-d-HxQyqs2f3J0-unsplash 1.png";
 import imgNTT from "../../../assets/DropdownNotificationImg/fuu-j-Lo7venJ_ywM-unsplash 1.png";
-import imgNF from "../../../assets/DropdownNotificationImg/michael-dziedzic-bOZRVWwbW9Y-unsplash 1.png";
-
 const DropDownArray = [
   {
     day: "2 days ago",
