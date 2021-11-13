@@ -119,6 +119,10 @@
     box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
     border-radius: 16px;
   }
+  .SectionSeven__Displacement {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 @media (max-width: 760px) {
   .Slider__LeftIconFlexin {
@@ -127,7 +131,10 @@
     align-items: center;
     justify-content: center;
   }
-
+  .SectionSeven__Displacement {
+    display: flex;
+    justify-content: space-evenly;
+  }
   .SectionSix__CardImg {
     width: 315px;
     border-radius: 10px;

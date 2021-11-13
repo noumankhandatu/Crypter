@@ -16,7 +16,8 @@ function App() {
   return (
     <>
       <Header />
-      <SectionOne /> <RocketFired />
+      <SectionOne />
+      <RocketFired />
       <GridSectionOne />
       <GridSectionTwo />
       <PopularSeller />
