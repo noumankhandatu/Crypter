@@ -8,7 +8,7 @@ const SectionSixMapped = (props) => {
         <img src={props.img} className="SectionSix__CardImg" />
         <div className="SectionSeven__Displacement">
           <p className="SectionSeven__Amazin">
-            <b>{props.text}</b>
+            <b>{props.item}</b>
           </p>
           <div className="SectionSeven__GreenBtn">
             <p className="SectionSeven__textGreenBtn">2.4 ETH</p>
