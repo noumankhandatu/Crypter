@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Profile /> */}
+
       <SectionOne />
       <RocketFired />
       <GridSectionOne />
