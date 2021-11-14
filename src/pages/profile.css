@@ -1,0 +1,15 @@
+.profile_container {
+  padding-top: 65px;
+}
+.profile_backgroundImage {
+  background-image: url("../assets/profileImages/image-from-rawpixel-id-597407-jpeg\ 1.png");
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.profile_backgroundButtons {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 80%;
+  left: -8%;
+}

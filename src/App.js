@@ -11,11 +11,13 @@ import Slider from "./component/MultiItemCarousel/MultiItemSlider/Slider";
 import RocketFired from "./component/RocketFired/RocketFired";
 import Footer from "./component/Footer/Footer";
 import "./App.css";
+import Profile from "./pages/profilepage";
 
 function App() {
   return (
     <>
       <Header />
+      {/* <Profile /> */}
       <SectionOne />
       <RocketFired />
       <GridSectionOne />
