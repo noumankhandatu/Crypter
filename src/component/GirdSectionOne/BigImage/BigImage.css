@@ -1,0 +1,28 @@
+.GSO__VedioImage {
+  width: 530px;
+  background-image: url("../../../assets/image/vedioimage.png");
+  opacity: 0.9;
+  border-radius: 10px;
+  background-size: cover;
+  height: 800px;
+}
+@media (max-width: 1024px) {
+  .GSO__VedioImage {
+    width: 500px;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 760px) {
+  .GSO__VedioImage {
+    width: 350px;
+    border-radius: 10px;
+    height: 400px;
+  }
+}
+@media (max-width: 350px) {
+  .GSO__VedioImage {
+    width: 270px;
+    border-radius: 10px;
+    height: 400px;
+  }
+}

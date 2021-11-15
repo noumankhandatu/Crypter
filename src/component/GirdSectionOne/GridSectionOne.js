@@ -1,17 +1,15 @@
 import React from "react";
-import vedioimage from "../../assets/image/vedioimage.png";
+import BigImage from "./BigImage/BigImage";
 import avatarone from "../../assets/image/avatarone.png";
 import user from "../../assets/image/user.png";
-import HeaderBtn from "../HeaderButton/headerbtn";
 import HeaderBlueBtn from "../../component/HeaderBlueButton/HeaderBlueBtn";
 import "./GridSectionOne.css";
+import { Link } from "react-router-dom";
 
 const GridSectionOne = () => {
   return (
     <div className="GridSectionOne__Layout animate__animated animate__fadeInDownBig">
-      <div>
-        <img src={vedioimage} className="GSO__VedioImage" alt="" />
-      </div>
+      <BigImage />
       <div className="GSOforMobile">
         <p className="GSO__headertext"> the creator network®</p>
         <div className="GSO__Layoutavatars">
@@ -54,8 +52,13 @@ const GridSectionOne = () => {
             </div>
           </div>
           <div>
-            <HeaderBlueBtn text="Place a bid" width="280px" height="48px" />
-            <HeaderBtn text="Place a bid" width="250px" height="48px" />
+            <Link to="/detail" className="text-decoration-none">
+              <HeaderBlueBtn text="Place a bid" width="300px" height="48px" />
+            </Link>
+
+            <button className="GSO__WhiteButton">
+              <p className="GSO__WhiteButtonTexts">View item</p>
+            </button>
           </div>
           <div className="GSO__IconsFlexing">
             <div>
