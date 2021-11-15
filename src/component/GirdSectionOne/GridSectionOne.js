@@ -1,8 +1,10 @@
 import React from "react";
-import "./GridSectionOne.css";
 import vedioimage from "../../assets/image/vedioimage.png";
 import avatarone from "../../assets/image/avatarone.png";
 import user from "../../assets/image/user.png";
+import HeaderBtn from "../HeaderButton/headerbtn";
+import HeaderBlueBtn from "../../component/HeaderBlueButton/HeaderBlueBtn";
+import "./GridSectionOne.css";
 
 const GridSectionOne = () => {
   return (
@@ -52,12 +54,8 @@ const GridSectionOne = () => {
             </div>
           </div>
           <div>
-            <button className="GSO__blueButton">
-              <p className="GSO__ButtonTexts">Place a bid</p>
-            </button>
-            <button className="GSO__WhiteButton">
-              <p className="GSO__WhiteButtonTexts">View item</p>
-            </button>
+            <HeaderBlueBtn text="Place a bid" width="280px" height="48px" />
+            <HeaderBtn text="Place a bid" width="250px" height="48px" />
           </div>
           <div className="GSO__IconsFlexing">
             <div>

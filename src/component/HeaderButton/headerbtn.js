@@ -3,7 +3,10 @@ import "./headerbtn.css";
 const HeaderBtn = (props) => {
   return (
     <div className="headerbtn__fitting">
-      <button className="header__buttonStyling">
+      <button
+        style={{ width: `${props.width}`, height: `${props.height}` }}
+        className="header__buttonStyling"
+      >
         {props.text} <i class={props.Icon}></i>
       </button>
     </div>

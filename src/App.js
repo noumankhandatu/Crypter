@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./component/Header";
 import SectionOne from "./component/SectionOne/SectionOne";
 import GridSectionOne from "./component/GirdSectionOne/GridSectionOne";
@@ -15,17 +16,19 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Header />
-      <SectionOne />
-      <RocketFired />
-      <GridSectionOne />
-      <GridSectionTwo />
-      <PopularSeller />
-      <Slider />
-      <HotCollectionMapped />
-      <SectionSix />
-      <SectionSeven />
-      <Footer />
+      <Router>
+        <Header />
+        <SectionOne />
+        <RocketFired />
+        <GridSectionOne />
+        <GridSectionTwo />
+        <PopularSeller />
+        <Slider />
+        <HotCollectionMapped />
+        <SectionSix />
+        <SectionSeven />
+        <Footer />
+      </Router>
     </>
   );
 }
