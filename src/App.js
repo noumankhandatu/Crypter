@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import AmazingArt from "./Pages/PageTwoN/AmazingArt";
+import AmazingArt from "./Pages/AmazingArt/AmazingArt";
 import Home from "./Pages/Home";
 import Header from "./component/Header";
 import Footer from "./component/Footer/Footer";
@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/home" exact element={<Home />} />
+        <Route path="/*" exact element={<Home />} />
         <Route path="/detail" exact element={<AmazingArt />} />
       </Routes>
       <Footer />
