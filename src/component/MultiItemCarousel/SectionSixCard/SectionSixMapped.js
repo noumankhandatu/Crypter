@@ -1,5 +1,6 @@
 import React from "react";
 import DiscoveryWade from "../DiscoveryImages/austin-wade-X6Uj51n5CE8-unsplash 1.png";
+import GreenEthBtn from "../../UnitButtons/GreenEthBtn";
 import "./SectionSixCard.css";
 const SectionSixMapped = (props) => {
   return (
@@ -10,9 +11,7 @@ const SectionSixMapped = (props) => {
           <p className="SectionSeven__Amazin">
             <b>{props.item}</b>
           </p>
-          <div className="SectionSeven__GreenBtn">
-            <p className="SectionSeven__textGreenBtn">2.4 ETH</p>
-          </div>
+          <GreenEthBtn text="0.1 ETH" />
         </div>
         <div className="SectionSeven__Displacement">
           <div>

@@ -4,6 +4,9 @@ body {
   box-sizing: border-box;
   font-family: "DM Sans", sans-serif;
 }
+.DF {
+  display: flex;
+}
 .DFSA {
   display: flex;
   flex-direction: row;
@@ -16,7 +19,29 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+.DFSBAI {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.text-decoration-none {
+  text-decoration: none;
+}
+.MarginTop {
+  margin-top: 30px;
+}
+.MarginBottom {
+  margin-bottom: 30px;
+}
+.M-10 {
+  margin: 10px;
+}
+.divCircled {
+  padding: 10px;
+  transition: all 0.35s ease-in-out;
+  border-radius: 50px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

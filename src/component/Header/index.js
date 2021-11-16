@@ -3,6 +3,7 @@ import HeaderBlueBtn from "../HeaderBlueButton/HeaderBlueBtn";
 import HeaderBtn from "../HeaderButton/headerbtn";
 import Dropdown from "../DropdownNotification/Dropdown";
 import "./header.css";
+import { Link } from "react-router-dom";
 const Header = () => {
   const [dropDown, setDropDown] = useState(false);
   const handleDropDown = () => {
@@ -16,7 +17,9 @@ const Header = () => {
           <div className="header__lastFinsih">
             <div className="image__logoSize"></div>
             <div class="nav-title">
-              <small className="header__slotxtext">NFT SITE</small>
+              <Link className="text-decoration-none" to="/home">
+                <small className="header__slotxtext">NFT SITE</small>
+              </Link>
               <hr className="line" />
             </div>
             <p className="Header__textDiscover">Discover</p>

@@ -6,12 +6,7 @@
   text-align: center;
   grid-template-columns: 1.5fr 1fr;
 }
-.GSO__VedioImage {
-  width: 530px;
-  opacity: 0.9;
-  border-radius: 10px;
-  height: 800px;
-}
+
 .GSO__headertext {
   margin: 0px;
   margin-bottom: 20px;

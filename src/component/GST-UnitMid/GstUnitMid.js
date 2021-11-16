@@ -1,4 +1,5 @@
 import React from "react";
+import GreenEthBtn from "../UnitButtons/GreenEthBtn";
 import "./GstUnitMid.css";
 const GstUnitMid = (props) => {
   return (
@@ -19,9 +20,7 @@ const GstUnitMid = (props) => {
               alt=""
             />
           </div>
-          <div className="GST__EthTextBorders">
-            <p className="GST__EthTexts">1.125 ETH</p>
-          </div>
+          <GreenEthBtn text="2.3 ETH" />
           <div>
             <p className="GST__averageText">1 of 12</p>
           </div>

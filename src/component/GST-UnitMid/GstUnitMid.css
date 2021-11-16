@@ -23,26 +23,8 @@
   grid-gap: 5px;
   grid-template-columns: 30px 90px 70px;
 }
-.GST__EthTextBorders {
-  border-radius: 6px;
-  width: 80px;
-  margin-top: 5px;
-  display: flex;
-  margin: 0px !important;
-  padding: 0px !important;
-  height: 25px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border: 2px solid #45b26b;
-}
-.GST__EthTexts {
-  color: #45b26b;
-  font-size: 12px;
-  margin: 0px !important;
-  padding: 0px !important;
-  font-weight: 800;
-}
+
+
 .GST__averageText {
   font-size: 14px;
   margin: 0px;
