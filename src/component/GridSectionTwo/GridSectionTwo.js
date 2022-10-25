@@ -13,7 +13,13 @@ const GridSectionTwo = () => {
     <div className="GridSectionTwo__GridLayout">
       <div className="GST__TabCheker">
         <div className="GST__ImageCentering animate__animated animate__bounce">
-          <img className="bgSectionTwo__ImageSize" src={bgSectionTwo} alt="" />
+          <img
+            className="bgSectionTwo__ImageSize"
+            src={
+              "https://images.unsplash.com/photo-1600861195091-690c92f1d2cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGdhbWluZ3xlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+            }
+            alt=""
+          />
         </div>
         <div className="GridSection__avatarsOne">
           <div className="GST__BelowGrid">

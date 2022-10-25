@@ -8,7 +8,9 @@ const SectionOne = () => {
         <div className="layout__CenterText ">
           CREATE,EXPLORE, & COLLECT DIGITAL ART NFTS.
         </div>
-        <div className="layout__centerTexttwo">The new creative economy.</div>
+        <div className="layout__centerTexttwo">
+          The new creative economy... !
+        </div>
         <div className="layout__centerTexttwos">
           <HeaderBtn text="Start Your Search" />
         </div>
